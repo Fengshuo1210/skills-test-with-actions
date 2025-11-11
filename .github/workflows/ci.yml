@@ -16,7 +16,6 @@ on:
 jobs:
   # This workflow contains a single job called "build"
   build:
-    name: build # 再加一行，强制标记名称
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
